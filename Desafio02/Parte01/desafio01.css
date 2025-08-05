@@ -1,0 +1,61 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #121212; /* fundo bem escuro */
+  color: #eee;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+  background: #1f1f1f;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(138, 43, 226, 0.4);
+  max-width: 500px;
+  width: 90%;
+}
+
+h1 {
+  color: #b28fff; /* lilás clarinho */
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.subtitulo {
+  color: #aaa;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+button {
+  background: #b28fff;
+  color: #121212;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: transform 0.2s, background 0.3s;
+}
+
+button:hover {
+  background: #c8a6ff;
+  transform: scale(1.05);
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fff;
+}
